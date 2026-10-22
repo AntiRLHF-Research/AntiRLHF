@@ -1,0 +1,4 @@
+interface:
+  display_name: "AntiRLHF Review"
+  short_description: "Independent, actionable review of actual code and architectural behavior"
+  default_prompt: "Review the requested object against its real requirements and baseline. Find material behavioral and structural defects, group shared causes, and give direct corrective actions. Keep this request read-only."

@@ -2,6 +2,8 @@
 
 [简体中文](README.md)
 
+This repository is the paper-experiment skill and is supplied only to the experiment runner. The subject environment receives the Constitution and five core skills. `docs/` and `archive/` stay with the researchers. Use is described in [INSTALL.md](INSTALL.md).
+
 > I wrote this by hand. Please cherish it in the age of AI.
 
 AntiRLHF is an agent governance project targeting **local defensibility optimization**: a model can make the current step appear cautious, correct, and verifiable while losing sight of the complete objective, architecture, and user experience. We first recognized these problems through repeated use of GPT, and now observe related behavior across models.
@@ -80,7 +82,7 @@ The Constitution carries the long-term direction, Skills provide task-specific w
 
 ## Roles
 
-AntiRLHF distinguishes Planning from Execution because they share governance principles but face different forms of behavioral deterioration.
+AntiRLHF separates planning judgment, repository execution, and independent read-only review by their deliverables. Refactoring and Documentation remain specialist working methods.
 
 ### Plan
 
@@ -106,6 +108,14 @@ It focuses on:
 - Whether tests and verification protect genuinely important logic and contracts, starting from the objective and user actions, rather than pursuing quantity, coverage, and self-proof;
 - Whether old APIs, documents, tests, and processes are granted preservation and compatibility privileges.
 
+### Review
+
+[antirlhf-review](skills/antirlhf-review/SKILL.md) provides independent, actionable, read-only review of code, PRs, tests, and architecture. Authorized fixes proceed through Exec, without automatic review loops.
+
+### Project workflows (optional)
+
+[project-workflows](skills/project-workflows/SKILL.md) handles explicitly requested project setup, CI, version preparation, and publication. Ordinary coding tasks go directly to their relevant core Skill.
+
 ## The structure of AntiRLHF
 
 AntiRLHF uses four different mechanisms, each carrying only the responsibility suited to mechanization:
@@ -114,7 +124,7 @@ AntiRLHF uses four different mechanisms, each carrying only the responsibility s
 Constitution
   persistent governance principles
 
-Plan / Exec Skills
+Plan / Exec / Review Skills
   role-specific routing and task semantics
 
 References
@@ -136,7 +146,7 @@ Historical governance texts remain in [`archive/`](archive/README.en.md). Field 
 
 ## Navigation
 
-- [Repository overview](../README.md)
-- [Installation](../INSTALL.md)
+- [Package index](INDEX.md)
+- [Installation](docs/install-skills.md)
 - [Package index](INDEX.md)
 - [Research notes](docs/README.en.md)

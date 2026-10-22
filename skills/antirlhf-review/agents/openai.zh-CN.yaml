@@ -1,0 +1,4 @@
+interface:
+  display_name: "AntiRLHF 审查"
+  short_description: "独立只读审查实际代码行为与架构"
+  default_prompt: "依据真实目标与比较基线审查对象，聚焦实质行为和结构缺陷，合并共同根因并给出具体处置；保持只读。"

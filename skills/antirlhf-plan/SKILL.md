@@ -46,6 +46,8 @@ Open these **relative to this Skill directory** when the corresponding work appe
 - `references/context-and-goal.md` — a long design task, handoff, or resumption after context compression.
 - `references/examples.md` — worked decisions with both the mistaken trajectory and the actual next actions.
 
+- `references/technical-selection.md` — choosing libraries, interfaces, and mechanisms from real responsibilities and existing implementations.
+
 For a document deliverable or an author's prose, read `../documentation/SKILL.md`; it owns writing and document editing. For a proposed repository-wide structural replacement, read `../refactoring/SKILL.md`; it owns detailed refactoring methods. Load the appropriate guide's references for the work at hand.
 
 ## Finish

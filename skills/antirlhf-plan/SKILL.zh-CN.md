@@ -46,6 +46,8 @@ description: 研究技术问题、比较方案、决定架构或编写可实施�
 - `references/context-and-goal.md`：长期设计、工作交接、上下文压缩后恢复。
 - `references/examples.md`：包含错误轨迹与实际修正动作的完整决策案例。
 
+- `references/technical-selection.zh-CN.md`：选择依赖、接口和共用机制时，核对实际所有者与既有成熟实现。
+
 交付文档或修改作者原文时，读取 `../documentation/SKILL.md`，由它负责写作与编辑方法。设计仓库大规模替换时，读取 `../refactoring/SKILL.md`，由它负责详细重构方法。再根据实际任务读取相应参考材料。
 
 ## 完成

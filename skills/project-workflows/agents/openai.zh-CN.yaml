@@ -1,0 +1,4 @@
+interface:
+  display_name: "AntiRLHF 项目工作流"
+  short_description: "项目接入、CI、打包与已授权发布"
+  default_prompt: "依据当前平台与项目工具完成已请求的接入、CI 或发布，处理真实外部副作用，完成目标后结束。"

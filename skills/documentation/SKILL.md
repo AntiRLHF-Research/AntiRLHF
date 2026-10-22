@@ -25,6 +25,8 @@ Keep one authoritative home for each maintained procedure or fact; link other do
 
 Read `references/editing-and-prose.md` for concrete examples of corrections, invented caveats, scope mistakes, and legitimate uncertainty. Read `references/navigation-and-tools.md` when creating or moving documentation, editing navigation, or applying the bundled checker in a different repository.
 
+For shared project knowledge, translations, source-of-truth maintenance, or full removal of outdated descriptions, read `references/knowledge-maintenance.md` and update the authoritative owner.
+
 ## Check the written result
 
 Read the completed paragraph as the intended reader. Remove self-description, unrequested author-provenance claims, imagined objections, and hedges that follow an already supported conclusion. Keep distinctions and uncertainty that change the meaning or next action.

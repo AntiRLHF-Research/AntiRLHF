@@ -19,4 +19,4 @@ The archived documents are intentionally preserved close to their original form.
 
 ## Navigation
 
-[Introducing AntiRLHF](../README.en.md) · [Repository overview](../../README.md)
+[Introducing AntiRLHF](../README.en.md) · [Experimental use](../INSTALL.md)

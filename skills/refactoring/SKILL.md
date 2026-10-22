@@ -13,6 +13,8 @@ A localized defect with a sound owner needs a focused change. Repeated patches a
 
 For architectural work, read `references/structure-and-ownership.md` before changing owners. For test-suite replacement or explicit total-code reduction, read `references/testing-and-reduction.md` before reorganizing tests and tooling. These are operational guides with worked cases, not additional approval gates.
 
+For full removal, retained consumers, persistent data or staged rollout, read `references/removal-and-migration.md` and shape the replacement around the actual migration obligation.
+
 ## Build the target structure
 
 1. Trace representative real usage paths: entrypoint, data producers, domain decisions, state mutations, and consumers. Include CLI, API, adapters, registration and discovery paths where they participate in the requested capability.

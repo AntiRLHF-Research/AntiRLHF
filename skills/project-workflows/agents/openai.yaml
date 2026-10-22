@@ -1,0 +1,4 @@
+interface:
+  display_name: "AntiRLHF Project Workflows"
+  short_description: "Project integration, CI, packaging and authorized releases"
+  default_prompt: "Use the project's real tooling to complete the requested setup, CI, installation or release. Respect actual public side effects and stop when the requested workflow works."

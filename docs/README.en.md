@@ -17,9 +17,8 @@ This archive is research material, not an extra operational policy. The active [
 
 ## Navigation
 
-- [Repository overview](../../README.md)
-- [Installation](../../INSTALL.md)
 - [Introducing AntiRLHF](../README.en.md)
+- [Experimental use](../INSTALL.md)
 - [AntiRLHF index](../INDEX.md)
 - [中文研究档案](README.md)
 - [Literature and community notes](research/literature-and-community.md)

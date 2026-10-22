@@ -13,6 +13,8 @@ description: 重建代码架构、职责、数据路径、测试及配套工具�
 
 调整职责之前读取 `references/structure-and-ownership.md`。重建大测试体系或明确要求整体缩减代码时，读取 `references/testing-and-reduction.md`。它们提供真实工作方法和案例，无须转成新的审批步骤。
 
+实际功能或旧接口整体移除、存在持久化数据或阶段部署时，读取 `references/removal-and-migration.zh-CN.md`，按消费者与真实过渡义务调整目标结构。
+
 ## 构建目标结构
 
 1. 追踪有代表性的真实使用路径：入口、数据生产者、业务决策、状态修改和消费者。CLI、API、适配器、注册和动态发现若涉及目标能力，也一并追踪。

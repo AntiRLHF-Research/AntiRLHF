@@ -21,4 +21,4 @@ JDD → TED → COST → AntiGPT → AntiRLHF
 
 ## 导航
 
-[AntiRLHF 介绍](../README.md) · [仓库概览](../../README.zh-CN.md)
+[AntiRLHF 介绍](../README.md) · [实验用法](../INSTALL.zh-CN.md)

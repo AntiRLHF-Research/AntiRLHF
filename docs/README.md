@@ -29,9 +29,8 @@
 
 ## Navigation / 导航
 
-- [仓库概览](../../README.zh-CN.md)
-- [安装](../../INSTALL.zh-CN.md)
 - [AntiRLHF 介绍](../README.md)
+- [实验用法](../INSTALL.zh-CN.md)
 - [AntiRLHF 导航](../INDEX.zh-CN.md)
 - [English overview](README.en.md)
 - [问题与现场观察](research/field-observations.md)

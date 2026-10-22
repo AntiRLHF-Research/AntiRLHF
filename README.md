@@ -2,6 +2,8 @@
 
 [English](README.en.md)
 
+本仓库是论文实验技能，只供给实验程序。进入被试环境的是 Constitution 和五个核心技能；`docs/` 与 `archive/` 留在研究者侧。用法见 [INSTALL.zh-CN.md](INSTALL.zh-CN.md)。
+
 > 本文纯手写，在 AI 时代请您珍惜。
 
 AntiRLHF 是一套面向 Agent 的治理模型，尤其针对模型的 **局部可辩护性优化**：模型很擅长让当前步骤显得谨慎、正确、可验证，却可能失去对完整目标、结构和用户体验的持续关注。我们最早从 GPT 的使用经历中观察到这些问题，如今也关注其他模型在类似任务中的表现。
@@ -75,7 +77,7 @@ AntiRLHF 是一套面向 Agent 的治理模型，尤其针对模型的 **局部�
 
 ## 角色区分
 
-AntiRLHF 区分 Planning 与 Execution，因为它们共享治理原则，却面对不同的行为恶化方式。
+AntiRLHF 将研究判断、仓库执行与独立只读审查划分为不同产物角色；Refactoring 与 Documentation 继续承担专项方法。
 
 ### 计划角色
 
@@ -101,6 +103,14 @@ AntiRLHF 区分 Planning 与 Execution，因为它们共享治理原则，却面
 - 测试与验证是否保护真正重要的逻辑与契约、从目标与用户操作出发，而非追求数量、覆盖面和自我证明；
 - 旧 API、旧文档、旧测试与旧流程是否被赋予了保留与兼容特权。
 
+### 独立审查
+
+[antirlhf-review](skills/antirlhf-review/SKILL.md) 负责代码、PR、测试和架构的只读判断。已获授权的修复由 Exec 完成；不自动附加审查循环。
+
+### 项目工作流（可选）
+
+[project-workflows](skills/project-workflows/SKILL.md) 负责明确请求的项目接入、CI、版本准备与发布。普通开发任务直接使用相应核心 Skill。
+
 ## AntiRLHF 的结构
 
 AntiRLHF 使用四种不同的机制，各自只承担适合机械化的责任：
@@ -109,7 +119,7 @@ AntiRLHF 使用四种不同的机制，各自只承担适合机械化的责任�
 Constitution
   持久治理原则
 
-计划 / 执行技能
+计划 / 执行 / 审查技能
   角色专属的路由与任务语义
 
 参考文档
@@ -131,7 +141,7 @@ AntiRLHF 从 JDD、TED 与 COST 演化而来，这是在治理 GPT 模型的过�
 
 ## Navigation / 导航
 
-- [仓库概览](../README.zh-CN.md)
-- [安装](../INSTALL.zh-CN.md)
+- [文档导航](INDEX.zh-CN.md)
+- [安装](docs/install-skills.md)
 - [文档导航](INDEX.zh-CN.md)
 - [研究档案](docs/README.md)

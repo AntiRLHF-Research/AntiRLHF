@@ -25,6 +25,8 @@ description: 编写、编辑产品文档、开发文档、研究文章及 Agent 
 
 具体纠错、凭空追加限定、局部要求扩散和真正不确定性的区别，见 `references/editing-and-prose.md`。创建/移动文档、更新导航，或在另一个仓库使用工具，见 `references/navigation-and-tools.md`。
 
+维护共享事实、项目知识、翻译与删除后残留时，读取 `references/knowledge-maintenance.zh-CN.md`，确定唯一的持续维护所有者。
+
 ## 检查写成的内容
 
 按目标读者的身份通读完成段落。删掉自我表述、未经请求的作者来源声明、想象出来的反驳，以及紧跟明确结论的多余保留话语。影响实际含义或下一步行动的区别与未知事实应当保留。

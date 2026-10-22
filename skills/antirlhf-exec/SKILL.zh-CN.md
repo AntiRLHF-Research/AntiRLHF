@@ -44,7 +44,11 @@ description: 实现、调试、重构、测试并交付现有仓库中的变更�
 - `references/git-and-delivery.md`：分支、PR、集成和交付；用户指定不同操作时遵守用户要求。
 - `references/examples.md`：小修复、集成、重构、测试和局部纠正的完整执行案例。
 
-重大结构重设计或整体测试替换时，读取 `../refactoring/SKILL.md` 及相关参考。写作或编辑文档（包括 Agent 指令）时，读取 `../documentation/SKILL.md` 及相关参考。四份 Skill 作为一组安装后仍能通过这些相邻目录路径访问。
+- `references/impact-and-removal.zh-CN.md`：共享契约、同类入口、动态消费者、完整删除与生成关系。
+- `references/implementation-and-dependencies.zh-CN.md`：真实实现入口、成熟依赖和边界错误处理。
+- `references/security-and-authority.zh-CN.md`：权限、工作区保护、信任边界与外部副作用。
+
+重大结构重设计或整体测试替换时，读取 `../refactoring/SKILL.md` 及相关参考。写作或编辑文档（包括 Agent 指令）时，读取 `../documentation/SKILL.md` 及相关参考。核心 Skills 安装在同一技能目录后仍能通过这些相邻目录路径访问。
 
 ## 交付
 

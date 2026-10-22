@@ -44,7 +44,11 @@ Open these **relative to this Skill directory** when the corresponding work appe
 - `references/git-and-delivery.md` — repository branch, PR, integration, and delivery operations; use the user's stated flow when it differs.
 - `references/examples.md` — complete implementation examples covering small fixes, integrations, refactors, tests, and local corrections.
 
-For major redesign or whole-suite test replacement, read `../refactoring/SKILL.md` and its corresponding references. For writing or editing documents, including agent instructions, read `../documentation/SKILL.md` and its corresponding references. These sibling paths work both in this repository and when the four Skills are installed together.
+- `references/impact-and-removal.md` — shared behavior, indirect consumers, generated paths and full removal.
+- `references/implementation-and-dependencies.md` — real implementation ownership, existing dependencies, and failure boundaries.
+- `references/security-and-authority.md` — actual permissions, existing work, trust boundaries, and external effects.
+
+For major redesign or whole-suite test replacement, read `../refactoring/SKILL.md` and its corresponding references. For writing or editing documents, including agent instructions, read `../documentation/SKILL.md` and its corresponding references. Install the core Skills together so the sibling references remain valid.
 
 ## Deliver
 
