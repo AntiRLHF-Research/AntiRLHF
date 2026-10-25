@@ -51,7 +51,7 @@ Suppose an old public client still sends protocol v1 while new clients use v2. A
 
 Group files by the responsibilities that change together and the interfaces by which others use them. Large files sometimes contain several unrelated owners; split them along those responsibilities. Many tiny files can create unnecessary indirection when they exist only to introduce names or forward a call. Do not treat a numeric file-size limit or a mandatory directory depth as the architecture.
 
-When several modules need the same generic mechanics, first inspect what the language standard library or a mature dependency already provides. Choose a dependency based on real API suitability, maintenance needs, licensing obligations that actually apply, and integration cost. Use it to *replace* homemade machinery. A simple pure helper may be cheaper than importing a framework.
+When several modules need the same generic mechanics, first inspect what the language standard library or a mature dependency already provides. Choose a dependency based on real API suitability, maintenance needs, licensing obligations that actually apply, and integration cost. Use it to _replace_ homemade machinery. A simple pure helper may be cheaper than importing a framework.
 
 ### Example with directories
 

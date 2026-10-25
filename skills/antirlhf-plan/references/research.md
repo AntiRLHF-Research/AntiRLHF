@@ -20,7 +20,7 @@ A search can be useful even without changing the immediate design if the user as
 
 **Useful investigation:** inspect how each tool extracts symbols, tracks code changes, stores relationships, ranks results, and serves agent queries. Determine whether they share a durable source of truth and which part has to change when a file is edited. Try representative cross-file queries if the choice depends on retrieval quality.
 
-**Decision:** if graph edges and semantic chunks have independent update costs and retrieval roles, allow separate indexes while sharing the file-change source and stable symbol identity where feasible. If both tools duplicate the same parser, examine reusing one parsing layer. Design by *real shared responsibility*, not by the label "unified retrieval system."
+**Decision:** if graph edges and semantic chunks have independent update costs and retrieval roles, allow separate indexes while sharing the file-change source and stable symbol identity where feasible. If both tools duplicate the same parser, examine reusing one parsing layer. Design by _real shared responsibility_, not by the label "unified retrieval system."
 
 **Unproductive continuation:** enumerate every retrieval benchmark, introduce a multi-stage evaluation platform, then stop before deciding the indexing ownership. A particular experiment is useful only if it can distinguish the live alternatives.
 
@@ -34,4 +34,4 @@ Example: a local vector index may work well enough for small repositories. Befor
 
 Lead with discoveries and their implications. Give concrete source links and dates where the claim depends on them. Record disagreements that change the working model, relevant limitations near the result they qualify, and next experiments when they serve an open question. Put background context after the result rather than substituting a long account of research effort for the result.
 
-When the user wants a research archive rather than an immediate design, preserve important hypotheses and source provenance *in the archive*. Write operational Agent instructions separately as direct actions.
+When the user wants a research archive rather than an immediate design, preserve important hypotheses and source provenance _in the archive_. Write operational Agent instructions separately as direct actions.

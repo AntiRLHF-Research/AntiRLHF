@@ -26,7 +26,7 @@ For a persistent data format, deletion of real user data, public integration con
 
 **Common detour:** keep the old API as a deprecated alias "just in case," add dual tests and a future removal milestone. That builds a permanent obligation from an imagined one.
 
-The decisive difference between the two routes is the *actual* external contract. The positive action in both routes is to produce one coherent internal implementation.
+The decisive difference between the two routes is the _actual_ external contract. The positive action in both routes is to produce one coherent internal implementation.
 
 ## Treat uncertainty as a local design input
 
@@ -38,6 +38,6 @@ Compare viable alternatives when trade-offs are material. Use a table if it clar
 
 ## Respond to correction by changing the decision
 
-When a user reveals a missed fact, incorporate it. For example, if an update check runs *once per new session*, evaluate the cost and benefit at that frequency. Retain it when it cheaply informs users about releases and requires consent to update. Replace the incorrect earlier recommendation in the current answer or design.
+When a user reveals a missed fact, incorporate it. For example, if an update check runs _once per new session_, evaluate the cost and benefit at that frequency. Retain it when it cheaply informs users about releases and requires consent to update. Replace the incorrect earlier recommendation in the current answer or design.
 
 If asked why the original mistake happened, describe the observed mistaken assumption. Internal causes of generation are generally unavailable to the agent. Stay with what can be observed and corrected.

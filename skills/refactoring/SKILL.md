@@ -19,7 +19,7 @@ For full removal, retained consumers, persistent data or staged rollout, read `r
 
 1. Trace representative real usage paths: entrypoint, data producers, domain decisions, state mutations, and consumers. Include CLI, API, adapters, registration and discovery paths where they participate in the requested capability.
 2. Describe who owns each business rule, state transition, and external side effect. A component owns a responsibility when callers can rely on it without reimplementing or interpreting that responsibility elsewhere.
-3. Choose the target data and interface shape. Distinguish *the same business rule repeated in several places* from *different responsibilities that happen to use similar code*. Combine the former at the actual owner; keep the latter independent. Extract common mechanics only where shared ownership pays for itself.
+3. Choose the target data and interface shape. Distinguish _the same business rule repeated in several places_ from _different responsibilities that happen to use similar code_. Combine the former at the actual owner; keep the latter independent. Extract common mechanics only where shared ownership pays for itself.
 4. Migrate affected producers and consumers to the selected shape. Update configuration and maintained documents where their meanings change. Remove retired wrappers, duplicate paths, interfaces, tests, and tooling with the structures they supported.
 5. Exercise the changed capability through the path that actually uses it. Repair implementation defects in their new owner.
 

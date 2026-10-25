@@ -38,12 +38,12 @@ A Skill description is discovery metadata: use a short third-person-style capabi
 
 The body of `SKILL.md`, `AGENTS.md`, and agent references is instruction text. Address the executing agent and name the object of its work:
 
-| Indirect description | Direct instruction |
-|---|---|
-| Prevent the agent from inventing new compatibility machinery. | Migrate the active callers and delete retired internal adapters. |
-| This skill encourages careful testing. | Run the test that exercises the changed behavior; add a regression for a distinct missed failure. |
-| The document guards against context drift. | After compaction, restore the Objective, Decisions and unfinished Current Work. |
-| AntiRLHF seeks to improve architectural judgment. | Trace the mutation path and choose the component that owns the state change. |
+| Indirect description                                          | Direct instruction                                                                                |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Prevent the agent from inventing new compatibility machinery. | Migrate the active callers and delete retired internal adapters.                                  |
+| This skill encourages careful testing.                        | Run the test that exercises the changed behavior; add a regression for a distinct missed failure. |
+| The document guards against context drift.                    | After compaction, restore the Objective, Decisions and unfinished Current Work.                   |
+| AntiRLHF seeks to improve architectural judgment.             | Trace the mutation path and choose the component that owns the state change.                      |
 
 The direct versions give another model actions it can perform. Explanations of the Skill's philosophical purpose belong in the README or research archive when a human reader needs them.
 

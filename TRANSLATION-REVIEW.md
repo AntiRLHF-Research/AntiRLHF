@@ -4,13 +4,13 @@
 
 ## 共同宪章与四个 Skill
 
-| 英文执行文本 | 中文审阅文本 | 主要职责 |
-| --- | --- | --- |
-| [Constitution](CONSTITUTION.md) | [宪章译本](CONSTITUTION.zh-CN.md) | 所有角色通用的行动原则 |
-| [Plan](skills/antirlhf-plan/SKILL.md) | [Plan 译本](skills/antirlhf-plan/SKILL.zh-CN.md) | 研究与设计中的判断、交付和参考资料路由 |
-| [Exec](skills/antirlhf-exec/SKILL.md) | [Exec 译本](skills/antirlhf-exec/SKILL.zh-CN.md) | 实现任务与验证中的下一步行动、专项 Skill 路由 |
-| [Refactoring](skills/refactoring/SKILL.md) | [重构译本](skills/refactoring/SKILL.zh-CN.md) | 重构方法与整体测试体系重建 |
-| [Documentation](skills/documentation/SKILL.md) | [文档译本](skills/documentation/SKILL.zh-CN.md) | 文档信息架构、受众和语言检查 |
+| 英文执行文本                                   | 中文审阅文本                                     | 主要职责                                      |
+| ---------------------------------------------- | ------------------------------------------------ | --------------------------------------------- |
+| [Constitution](CONSTITUTION.md)                | [宪章译本](CONSTITUTION.zh-CN.md)                | 所有角色通用的行动原则                        |
+| [Plan](skills/antirlhf-plan/SKILL.md)          | [Plan 译本](skills/antirlhf-plan/SKILL.zh-CN.md) | 研究与设计中的判断、交付和参考资料路由        |
+| [Exec](skills/antirlhf-exec/SKILL.md)          | [Exec 译本](skills/antirlhf-exec/SKILL.zh-CN.md) | 实现任务与验证中的下一步行动、专项 Skill 路由 |
+| [Refactoring](skills/refactoring/SKILL.md)     | [重构译本](skills/refactoring/SKILL.zh-CN.md)    | 重构方法与整体测试体系重建                    |
+| [Documentation](skills/documentation/SKILL.md) | [文档译本](skills/documentation/SKILL.zh-CN.md)  | 文档信息架构、受众和语言检查                  |
 
 ## 角色参考资料
 

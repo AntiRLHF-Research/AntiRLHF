@@ -9,11 +9,11 @@ AntiRLHF 由持久 Constitution 与五个核心技能及一个可选项目工作
 | 入口                                           | 职责                                       |
 | ---------------------------------------------- | ------------------------------------------ |
 | [Constitution](CONSTITUTION.md)                | 写入持久用户指令的共同治理原则。           |
-| [Plan](skills/antirlhf-plan/SKILL.md)           | 研究、判断、架构与规格设计。               |
-| [Exec](skills/antirlhf-exec/SKILL.md)           | 实现、调试、验证与交付。                   |
+| [Plan](skills/antirlhf-plan/SKILL.md)          | 研究、判断、架构与规格设计。               |
+| [Exec](skills/antirlhf-exec/SKILL.md)          | 实现、调试、验证与交付。                   |
 | [Refactoring](skills/refactoring/SKILL.md)     | 职责划分、数据流、结构简化与测试体系重整。 |
 | [Documentation](skills/documentation/SKILL.md) | 面向读者的写作、文档结构及语言与导航检查。 |
-| [AntiRLHF 版本](.version)                       | 集成技能共同使用的版本。               |
+| [AntiRLHF 版本](.version)                      | 集成技能共同使用的版本。                   |
 
 Plan 与 Exec 按任务加载各自的 `references/`。Refactoring 与 Documentation 提供专项任务方法。Documentation 统一拥有可复用的[语言扫描器](skills/documentation/scripts/check/governance_prose.py)、[导航检查器](skills/documentation/scripts/check/doc_graph.py)及[扫描配置](skills/documentation/scripts/.config/scanner.toml)。
 

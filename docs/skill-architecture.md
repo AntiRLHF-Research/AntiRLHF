@@ -2,14 +2,14 @@
 
 AntiRLHF keeps objective and decision principles in the persistent `CONSTITUTION.md`. Native Skills expose the actual task contract and progressively load domain methods. The harness selects an entry by the required deliverable; AntiRLHF does not add an obligatory router or supervisory review process.
 
-| Entry | Primary deliverable | Specialist knowledge |
-| --- | --- | --- |
-| `antirlhf-plan` | Decision, research, architecture, implementable Spec | Architecture, judgment, research, actual library choice |
-| `antirlhf-exec` | Working feature, fix, verification and delivery | Root cause, consumers, direct implementation, permissions |
-| `antirlhf-review` | Independent read-only code/architecture/PR diagnosis | Material defects, actual baseline, actions at responsible owner |
-| `refactoring` | Structural replacement, deletion and test restructuring | Owner and data path, active consumers and migration |
-| `documentation` | Reader-facing prose and maintained documentation | Authorial voice, facts and source ownership, prose checks |
-| `project-workflows` (optional) | Requested installation, CI or publication | Platform-specific project lifecycle and external effects |
+| Entry                          | Primary deliverable                                     | Specialist knowledge                                            |
+| ------------------------------ | ------------------------------------------------------- | --------------------------------------------------------------- |
+| `antirlhf-plan`                | Decision, research, architecture, implementable Spec    | Architecture, judgment, research, actual library choice         |
+| `antirlhf-exec`                | Working feature, fix, verification and delivery         | Root cause, consumers, direct implementation, permissions       |
+| `antirlhf-review`              | Independent read-only code/architecture/PR diagnosis    | Material defects, actual baseline, actions at responsible owner |
+| `refactoring`                  | Structural replacement, deletion and test restructuring | Owner and data path, active consumers and migration             |
+| `documentation`                | Reader-facing prose and maintained documentation        | Authorial voice, facts and source ownership, prose checks       |
+| `project-workflows` (optional) | Requested installation, CI or publication               | Platform-specific project lifecycle and external effects        |
 
 The first three entries are roles defined by the requested output; Refactoring and Documentation can also be invoked directly for specialist work. `project-workflows` remains an optional independent Skill. A request may use more than one entry where the actual work spans them. There is no routine requirement to run Plan before Exec or Review after every change.
 

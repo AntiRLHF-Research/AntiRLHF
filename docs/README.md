@@ -12,12 +12,12 @@
 
 ## 阅读路径
 
-| 研究笔记 | 主要问题 |
-| --- | --- |
-| [问题与现场观察](research/field-observations.md) | 编码、测试、文档、自然语言与认错中的共同失败形态 |
-| [机制与可检验假设](research/behavioral-mechanisms.md) | 规则回忆、决策、事后解释为何可能脱节 |
-| [推理时治理与提示词设计](research/prompt-strategy.md) | 无法微调时，怎样让规则参与真实的行动选择 |
-| [文献与社区资料](research/literature-and-community.md) | 原始论文、官方复盘、工程经验，各能支持什么 |
+| 研究笔记                                               | 主要问题                                         |
+| ------------------------------------------------------ | ------------------------------------------------ |
+| [问题与现场观察](research/field-observations.md)       | 编码、测试、文档、自然语言与认错中的共同失败形态 |
+| [机制与可检验假设](research/behavioral-mechanisms.md)  | 规则回忆、决策、事后解释为何可能脱节             |
+| [推理时治理与提示词设计](research/prompt-strategy.md)  | 无法微调时，怎样让规则参与真实的行动选择         |
+| [文献与社区资料](research/literature-and-community.md) | 原始论文、官方复盘、工程经验，各能支持什么       |
 
 ## 材料性质
 
