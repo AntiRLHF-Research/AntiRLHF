@@ -1,0 +1,6 @@
+interface:
+  display_name: "国际化"
+  short_description: "统一消息资源、语言选择与地区格式。"
+  default_prompt: "使用 $localization，统一消息资源、语言选择与地区格式。"
+policy:
+  allow_implicit_invocation: true

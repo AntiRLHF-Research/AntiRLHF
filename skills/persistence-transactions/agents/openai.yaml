@@ -1,0 +1,6 @@
+interface:
+  display_name: "存储与事务"
+  short_description: "统一写入权与事务，处理并发、迁移和恢复。"
+  default_prompt: "使用 $persistence-transactions，统一写入权与事务，处理并发、迁移和恢复。"
+policy:
+  allow_implicit_invocation: true

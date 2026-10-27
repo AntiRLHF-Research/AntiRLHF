@@ -1,0 +1,17 @@
+--- upstream-excerpt
++++ adopted-excerpt
+@@ -1,10 +1,10 @@
+-### 2. Create Focused Agent Tasks
++### Create Focused Agent Tasks
+ 
+ Each agent gets:
+-- **Specific scope:** One test file or subsystem
+-- **Clear goal:** Make these tests pass
+-- **Constraints:** Don't change other code
+-- **Expected output:** Summary of what you found and fixed
++- **Specific scope:** One independent responsibility and the callers affected by its contract
++- **Clear goal:** Complete the required behavior through its real entrypoints
++- **Constraints:** Respect the authorized scope and other work; coordinate changes to shared owners
++- **Expected output:** The implemented result, any changed consumer contract, and remaining blockers
+ 
+ ## Agent Prompt Structure

@@ -1,0 +1,6 @@
+interface:
+  display_name: "日志与跟踪"
+  short_description: "集中有用日志和上下文，完成诊断后清理临时内容。"
+  default_prompt: "使用 $observability，集中有用日志和上下文，完成诊断后清理临时内容。"
+policy:
+  allow_implicit_invocation: true

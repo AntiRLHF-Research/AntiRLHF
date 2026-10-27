@@ -1,0 +1,6 @@
+interface:
+  display_name: "独立子任务"
+  short_description: "按独立责任并行工作，协调共享契约并整合结果。"
+  default_prompt: "使用 $independent-subtasks，按独立责任并行工作，协调共享契约并整合结果。"
+policy:
+  allow_implicit_invocation: true

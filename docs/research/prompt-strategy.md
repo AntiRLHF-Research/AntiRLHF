@@ -8,7 +8,7 @@
 
 如果 Agent 开始维护旧接口、编写适配器、给新旧路径各补一套测试，那么它仍在依照熟悉的局部安全策略行动。我们要让它选择统一新接口、迁移真实调用者、删除旧路径及其专属测试。这里的**差异必须出现在下一次编辑上**，不需要附上一份说明其如何遵守 Constitution 的报告。
 
-因此，AntiRLHF 在 [Constitution](../../CONSTITUTION.md) 中保留简短的行动原则；在 Plan/Exec Skill 中描述常见分叉时的行动方向；在各自 `references/examples.md` 中放少量完整、跨领域的情境—行动示范。它们承担不同层级的职责，也不要求每次任务都重新朗读。
+因此，AntiRLHF 在 [Constitution](../../archive/AntiRLHF-001/CONSTITUTION.md) 中保留简短的行动原则；在 Plan/Exec Skill 中描述常见分叉时的行动方向；在各自 `references/examples.md` 中放少量完整、跨领域的情境—行动示范。它们承担不同层级的职责，也不要求每次任务都重新朗读。
 
 ## 常驻原则、角色知识与任务示范
 

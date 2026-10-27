@@ -1,0 +1,6 @@
+interface:
+  display_name: "研究与决策"
+  short_description: "查原始来源，完成研究综合与技术选择。"
+  default_prompt: "使用 $research-decision，查原始来源，完成研究综合与技术选择。"
+policy:
+  allow_implicit_invocation: true

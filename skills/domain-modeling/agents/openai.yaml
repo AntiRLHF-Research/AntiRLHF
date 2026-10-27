@@ -1,0 +1,6 @@
+interface:
+  display_name: "领域建模"
+  short_description: "集中业务规则、状态迁移和正式模型的修改权。"
+  default_prompt: "使用 $domain-modeling，集中业务规则、状态迁移和正式模型的修改权。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "传输与错误"
+  short_description: "统一网络资源、重试和错误语义，接通真实消费者。"
+  default_prompt: "使用 $transport-errors，统一网络资源、重试和错误语义，接通真实消费者。"
+policy:
+  allow_implicit_invocation: true

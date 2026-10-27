@@ -1,0 +1,6 @@
+interface:
+  display_name: "跨平台"
+  short_description: "采用成熟平台能力，集中路径、进程与编码差异。"
+  default_prompt: "使用 $platform-portability，采用成熟平台能力，集中路径、进程与编码差异。"
+policy:
+  allow_implicit_invocation: true

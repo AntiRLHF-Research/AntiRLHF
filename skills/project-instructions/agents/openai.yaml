@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目指令维护"
+  short_description: "维护有效项目知识，删除偏好固化和失效规则。"
+  default_prompt: "使用 $project-instructions，维护有效项目知识，删除偏好固化和失效规则。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "依赖选型与采用"
+  short_description: "选择成熟实现并接入真实能力，删除重复通用机制。"
+  default_prompt: "使用 $dependency-selection，选择成熟实现并接入真实能力，删除重复通用机制。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "直接表达"
+  short_description: "直接给结果和依据，删除防御性表达与自证说明。"
+  default_prompt: "使用 $direct-writing，直接给结果和依据，删除防御性表达与自证说明。"
+policy:
+  allow_implicit_invocation: true

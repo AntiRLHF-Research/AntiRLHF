@@ -1,7 +1,5 @@
 # AntiRLHF 研究档案
 
-[English overview](README.en.md)
-
 这里保存 AntiRLHF 形成过程中的现象记录、机制假设、提示词实验思路和文献阅读。它们是持续修订的研究笔记，有论文式的问题意识，但不按论文发表或工程验收的格式组织。观点可以鲜明；资料、观察与推断需要各自有出处。
 
 ## 研究主线
@@ -25,14 +23,13 @@
 
 目前的改进是 **inference-time governance**：使用持久指令、任务 Skill、少量行动示范与确定性语言扫描工具。我们暂不进行权重微调或重新后训练，也不通过新造的评价流程代替开发和使用。
 
-实际使用的规则由 [Constitution](../CONSTITUTION.md) 和 [Skills](../INDEX.zh-CN.md) 定义；这里保存研究过程与解释，不向 Agent 自动添加新的项目义务。
+实际使用的规则由 [宪章](../CONSTITUTION.zh-CN.md) 和 [当前技能](../CONTENTS.zh-CN.md) 定义；这里保存研究过程与解释，不向 Agent 自动添加新的项目义务。
 
 ## Navigation / 导航
 
 - [AntiRLHF 介绍](../README.md)
-- [实验用法](../INSTALL.zh-CN.md)
-- [AntiRLHF 导航](../INDEX.zh-CN.md)
-- [English overview](README.en.md)
+- [当前技能](../CONTENTS.zh-CN.md)
+- [上一版实验](../archive/AntiRLHF-001/INDEX.zh-CN.md)
 - [问题与现场观察](research/field-observations.md)
 - [机制与可检验假设](research/behavioral-mechanisms.md)
 - [推理时治理与提示词设计](research/prompt-strategy.md)

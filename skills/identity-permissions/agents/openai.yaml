@@ -1,0 +1,6 @@
+interface:
+  display_name: "身份与权限"
+  short_description: "复用认证机制，统一资源授权并保护凭据。"
+  default_prompt: "使用 $identity-permissions，复用认证机制，统一资源授权并保护凭据。"
+policy:
+  allow_implicit_invocation: true

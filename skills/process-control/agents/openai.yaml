@@ -1,0 +1,6 @@
+interface:
+  display_name: "流程抑制"
+  short_description: "推进真实工作，裁剪无用测试、门禁和自证流程。"
+  default_prompt: "使用 $process-control，推进真实工作，裁剪无用测试、门禁和自证流程。"
+policy:
+  allow_implicit_invocation: true

@@ -75,4 +75,3 @@ OpenAI 的[AGENTS.md 文档](https://developers.openai.com/codex/guides/agents-m
 ## Navigation / 导航
 
 - [研究档案](../README.md)
-- [English research overview](../README.en.md)

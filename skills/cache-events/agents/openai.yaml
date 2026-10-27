@@ -1,0 +1,6 @@
+interface:
+  display_name: "缓存与事件"
+  short_description: "让缓存、事件和订阅遵循明确的状态与投递语义。"
+  default_prompt: "使用 $cache-events，让缓存、事件和订阅遵循明确的状态与投递语义。"
+policy:
+  allow_implicit_invocation: true

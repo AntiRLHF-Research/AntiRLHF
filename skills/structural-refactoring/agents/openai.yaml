@@ -1,0 +1,6 @@
+interface:
+  display_name: "结构替换"
+  short_description: "完整迁移契约和消费者，清除旧结构及支撑。"
+  default_prompt: "使用 $structural-refactoring，完整迁移契约和消费者，清除旧结构及支撑。"
+policy:
+  allow_implicit_invocation: true

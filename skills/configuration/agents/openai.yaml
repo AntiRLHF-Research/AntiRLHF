@@ -1,0 +1,6 @@
+interface:
+  display_name: "配置"
+  short_description: "统一配置来源、类型、有效值与运行生命周期。"
+  default_prompt: "使用 $configuration，统一配置来源、类型、有效值与运行生命周期。"
+policy:
+  allow_implicit_invocation: true

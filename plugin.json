@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "antirlhf",
+  "version": "0.1.0",
+  "description": "面向长期开发与人类作品的具体行为约束、专业工程方法和本地参考。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "AntiRLHF",
+        "shortDescription": "压制自证与流程膨胀，深化系统工程与读者导向写作。",
+        "longDescription": "29 项直接发现的专项技能：系统设计、结构替换、基础工程、有效验证、作者写作、用户界面及长期任务。",
+        "category": "Development"
+      }
+    }
+  }
+}

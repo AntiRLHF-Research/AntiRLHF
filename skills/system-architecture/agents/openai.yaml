@@ -1,0 +1,6 @@
+interface:
+  display_name: "系统架构"
+  short_description: "从产品操作设计领域、基础能力和依赖关系。"
+  default_prompt: "使用 $system-architecture，从产品操作设计领域、基础能力和依赖关系。"
+policy:
+  allow_implicit_invocation: true

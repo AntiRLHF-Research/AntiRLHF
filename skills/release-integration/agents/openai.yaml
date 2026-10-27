@@ -1,0 +1,6 @@
+interface:
+  display_name: "集成与发布"
+  short_description: "按授权完成提交、集成、打包和发布。"
+  default_prompt: "使用 $release-integration，按授权完成提交、集成、打包和发布。"
+policy:
+  allow_implicit_invocation: true

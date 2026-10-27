@@ -1,0 +1,6 @@
+interface:
+  display_name: "完整能力交付"
+  short_description: "接通真实用户路径和依赖，完成授权能力。"
+  default_prompt: "使用 $end-to-end-delivery，接通真实用户路径和依赖，完成授权能力。"
+policy:
+  allow_implicit_invocation: true

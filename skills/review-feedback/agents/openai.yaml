@@ -1,0 +1,6 @@
+interface:
+  display_name: "评审意见处理"
+  short_description: "核对实际反馈，按共同根因修正判断和产物。"
+  default_prompt: "使用 $review-feedback，核对实际反馈，按共同根因修正判断和产物。"
+policy:
+  allow_implicit_invocation: true

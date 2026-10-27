@@ -1,0 +1,6 @@
+interface:
+  display_name: "用户交互与内容"
+  short_description: "面向最终使用者组织操作、状态、布局和文案。"
+  default_prompt: "使用 $product-interface，面向最终使用者组织操作、状态、布局和文案。"
+policy:
+  allow_implicit_invocation: true
